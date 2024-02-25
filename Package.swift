@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "Image-Library",
+    name: "Image Library",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Image-Library",
-            targets: ["Image-Library"]),
+            name: "Image Library",
+            targets: ["Image Library"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Image-Library",
+            name: "Image Library",
             dependencies: [],
             resources: [.process("Resources")]
         ),
